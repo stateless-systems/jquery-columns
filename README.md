@@ -14,6 +14,6 @@ Synopsis
 License
 -------
 
-MIT, http://en.wikipedia.org/wiki/MIT_License
+[MIT](http://en.wikipedia.org/wiki/MIT_License)
 
-Copyright (c) 2011 Stateless Systems, http://statelesssystems.com
+Copyright (c) 2011 [Stateless Systems](http://statelesssystems.com)
