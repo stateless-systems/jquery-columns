@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; }
+body {
+  padding: 10px;
+  background: #555;
+}
+
+/* jquery-columns */
+ul#columns {
+  width: 100%; overflow: hidden;
+  background: #ccc; list-style: none;
+}
+ul#columns li {
+  display: block; float: left;
+  width: 200px; height: 50px; padding: 5px; margin: 5px;
+  background: #ddd; border: 5px solid #aaa;
+}
