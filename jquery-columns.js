@@ -28,8 +28,8 @@
 
       data.column             = {};
       data.column.outer_width = Math.floor(data.wrap / data.columns);
-      data.column.spacing     = $first.outerWidth(true) - $first.width(); // Margin and border.
-      data.column.width       = data.column.outer_width - data.column.spacing;
+      data.column.alley       = $first.outerWidth(true) - $first.width(); // Margin and border.
+      data.column.width       = data.column.outer_width - data.column.alley;
       $columns.css({width: data.column.width + 'px'});
 
       return this;
@@ -38,7 +38,7 @@
     // TODO: Spans are removed on re-layout :(
     span: function(target, columns) {
       var $this = $(this), data = $this.data('columns');
-      var width = (columns * data.column.outer_width) - data.column.spacing;
+      var width = (columns * data.column.outer_width) - data.column.alley;
       target.css({width: width + 'px'});
       return this;
     }
